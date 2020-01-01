@@ -1,8 +1,12 @@
     html{
         font-size: 100px;
     }
-    .body{
+    body{
         position: relative;
+        width: 100%;
+        /* max-width: 750px; */
+        /* overflow: hidden; */
+
     }
     .head{
         position: fixed;
@@ -181,6 +185,7 @@
     margin-right: -.12rem;
     font-size: 0;
     overflow: hidden;
+    width: 100%;
 }
 .box-flex1{
     padding: 0;
@@ -234,6 +239,7 @@
     box-sizing: border-box;
     padding: .64rem .12rem 0 .32rem;
     float: left;
+    text-align: left;
 }
 .list .tag1 img{
     width: 1rem;
@@ -250,7 +256,7 @@
     padding: .2rem .27rem;
     text-align: center;
 }
-.info{
+.info3{
     text-align: left;
 }
 .info .name{
